@@ -6,7 +6,7 @@ return(
 <>
   <Header />
     <div className="container">
-        <h1>MY App</h1>
+       
     </div>
 </>
   
