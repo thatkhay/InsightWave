@@ -1,5 +1,5 @@
 import FeedbackItem from "./FeedbackItem"
-
+import PropTypes from 'prop-types'
 function feedbackList({feedback}) {
 
     if (!feedback || feedback.length === 0) {
@@ -13,6 +13,9 @@ function feedbackList({feedback}) {
        ))}
     </div>
   )
+}
+feedbackList.propTypes = {
+  feedback: PropTypes.array,
 }
 
 export default feedbackList
